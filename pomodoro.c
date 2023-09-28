@@ -33,19 +33,19 @@ void count_time(int selection)
 
 void set_study(void)
 {
-    printw("Kac dakika calisacaksin: ");
+    printw("How many minutes are you going to study? : ");
     scanw("%d", &study);
 }
 
 void set_rest(void)
 {
-    printw("Kac dakika mola vereceksin: ");
+    printw("How many minutes are you going to rest? : ");
     scanw("%d", &rest);
 }
 
 void set_sessions(void)
 {
-    printw("How many sessions would you like to do: ");
+    printw("How many sessions would you like to do? : ");
     scanw("%d", &sessions);
 }
 
